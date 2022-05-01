@@ -2,22 +2,12 @@
 using namespace std;
 int main()
 {
-	int a,b,c,d;
-	double x1,x2;
-	a=2,b=24,c=7;
-	d=b*b-4*a*c;
-	x1=(-b+sqrt(d))/(2*a);
-	x2=(-b-sqrt(d))/(2*a);
-	cout<<x1<<" "<<x2<<endl;
-	
-	
-	
-	//forÑ­»·¼òµ¥
-	for (a=0;a<1000;a=a+2)
+	//forå¾ªçŽ¯ç®€å•
+	for (int a=0;a<1000;a=a+2)
 	{
 		cout<<a<<endl;
 	}	
-	//whileÑ­»·Ìõ¼þÑ­»·Âé·³£¬ÎÞÌõ¼þÎÞÏÞÑ­»µ¼òµ¥ 
+	//whileå¾ªçŽ¯æ¡ä»¶å¾ªçŽ¯éº»çƒ¦ï¼Œæ— æ¡ä»¶æ— é™å¾ªåç®€å• 
 	int l=1;
 	while(l<1000)
 		{
@@ -29,7 +19,7 @@ int main()
    int e = 1;
    do
    {
-       cout << "e µÄÖµ£º" << e << endl;
+       cout << "e çš„å€¼ï¼š" << e << endl;
        e = e + 2;
    }while( e < 1000 );
  
