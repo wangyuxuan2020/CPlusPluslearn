@@ -19,7 +19,8 @@ int main()
 			cnt=sum[i];
 		}
 	}
-	cout<<cnt;
+	
+	cout<<sum;
 
 
 	return 0;
