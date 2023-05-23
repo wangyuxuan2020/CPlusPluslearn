@@ -13,6 +13,7 @@ bool cmp(stu n1,stu n2)
 		return true;
 	}else if(n1.s.size()==n2.s.size()&&n1.s>n2.s)
 	{
+		
 		return true;
 	}else if(n1.s.size()==n2.s.size()&&n1.s==n2.s&&n1.n>n2.n)
 	{
