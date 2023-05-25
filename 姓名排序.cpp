@@ -21,6 +21,7 @@ bool cmp(stu n1,stu n2)
 	}
 	return false;
 }
+
 int main()
 {
 	cin>>c;
