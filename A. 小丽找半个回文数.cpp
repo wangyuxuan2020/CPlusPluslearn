@@ -2,6 +2,7 @@
 using namespace std;
 bool huiwen(int n,int d){
  
+ 
     string r = "",t = "0123456789ABCDEF";
  
     while(n != 0){
