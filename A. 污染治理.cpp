@@ -6,12 +6,18 @@ int fy[4]={1,0,-1,0};
 int tx,ty;
 int n,m;
 int cnt;
+int t=0,sum=0,ma;
+ 
 
 void dfs(int x,int y)
 {
-	a[x][y]='p';
+	a[x][y]='~';
+	sum++;
+	t++;
+	
 	 for(int i=0;i<4;i++)
 	{
+		
 		tx=x+fx[i];
 		ty=y+fy[i];
 		if(a[tx][ty]=='*')
@@ -37,11 +43,13 @@ int main()
 			if(a[i][j]=='*')
 			{
 				cnt++;
+				t=0;
 				dfs(i,j);
+				ma=max(ma,t);
 			}
 		}
 	 } 
-	cout<<cnt;
+	cout<<cnt<<' '<<sum<<' '<<ma;
 	return 0;
 }
 
